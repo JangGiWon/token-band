@@ -4,6 +4,8 @@ export type Usage = {
   percent: number
   limits: { kind: string; percentUsed: number }[]
   usd?: number
+  /** No response yet: tokens is /context's local estimate. */
+  estimated?: boolean
 }
 
 declare module 'claude-code' {
