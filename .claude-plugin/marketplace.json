@@ -1,0 +1,5 @@
+{
+  "name": "token-band",
+  "owner": { "name": "JangGiWon" },
+  "plugins": [{ "name": "token-band", "source": "./" }]
+}
